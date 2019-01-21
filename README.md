@@ -41,8 +41,10 @@ are accessible via the getErrors method.
 The signature methods of a template engine are therefore the following:
 
 
+```php
 - string|false render ( string resourceIdentifier, array variables = [] )
 - array getErrors ()
+```
 
 
 

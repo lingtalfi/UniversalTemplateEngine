@@ -1,7 +1,7 @@
 <?php
 
 
-namespace UniversalTemplateEngine;
+namespace Ling\UniversalTemplateEngine;
 
 
 interface UniversalTemplateEngineInterface

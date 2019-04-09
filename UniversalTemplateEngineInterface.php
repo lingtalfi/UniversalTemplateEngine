@@ -16,7 +16,7 @@ interface UniversalTemplateEngineInterface
      * @param array $variables
      * @return false|string. False is returned in case something went wrong, in which case errors are accessible via the getErrors method.
      */
-    public function render($resourceId, array $variables = []);
+    public function render(string $resourceId, array $variables = []);
 
 
     /**

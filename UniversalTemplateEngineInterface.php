@@ -10,6 +10,7 @@ interface UniversalTemplateEngineInterface
 
     /**
      * Parses the template identified by $resourceId and returns the interpreted template (the template with the variables injected in it).
+     * If false is returned, the errors are accessible via the getErrors method.
      *
      * @param $resourceId , this is specific to the concrete template engine.
      * @param array $variables
